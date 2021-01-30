@@ -25,7 +25,7 @@ const theme = {
         l: 25,
         xl: 75
     },
-    textVarients: {
+    textVariants: {
         title: {
             fontSize: moderateScale(40),
             fontFamily: "Gotham-Black",

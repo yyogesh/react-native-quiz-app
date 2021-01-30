@@ -5,6 +5,11 @@ import Welcome from './src/components/OnBoarding/Welcome';
 import { ThemeProvider } from "@shopify/restyle";
 import { theme } from './src/components';
 
+export type AppStackRoutes = {
+  OnBoarding: undefined;
+  Question: undefined
+}
+
 export default function App() {
   return (
     <ThemeProvider {...{ theme }}>
